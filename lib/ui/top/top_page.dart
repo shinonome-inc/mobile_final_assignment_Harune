@@ -54,8 +54,9 @@ class TopPage extends StatelessWidget {
                             // TODO:
                           },
                           style: AppButtonStyles.roundedButton.copyWith(
-                            backgroundColor:
-                                const WidgetStatePropertyAll(AppColors.green),
+                            backgroundColor: const WidgetStatePropertyAll(
+                              AppColors.green,
+                            ),
                             foregroundColor: const WidgetStatePropertyAll(
                               AppColors.paleWhite,
                             ),
@@ -71,8 +72,9 @@ class TopPage extends StatelessWidget {
                             // TODO:
                           },
                           style: AppButtonStyles.roundedButton.copyWith(
-                            foregroundColor:
-                                const WidgetStatePropertyAll(Colors.white),
+                            foregroundColor: const WidgetStatePropertyAll(
+                              Colors.white,
+                            ),
                           ),
                           child: const Text(
                             'ログインせずに利用する',
